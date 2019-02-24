@@ -1,0 +1,48 @@
+{
+  "name": "@sedeh/tagger",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "angular 6+",
+    "tags",
+    "tagger",
+    "tagging"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "@sedeh/wizard-storage": "^1.2.5",
+    "tslib": "^1.9.0"
+  },
+  "devDependencies": {
+    "@angular/common": "^6.0.0",
+    "@angular/core": "^6.0.0",
+    "@angular/compiler": "^6.0.0",
+    "@angular/platform-browser": "^6.0.0",
+    "@angular/platform-browser-dynamic": "^6.0.0",
+    "@angular-devkit/build-angular": "~0.12.3",
+    "@angular/http": "^6.0.0",
+    "@angular/cli": "^6.2.6",
+    "@angular/compiler-cli": "^6.0.0",
+    "@types/node": "^6.0.60",
+    "rxjs": "6.2.2",
+    "core-js": "^2.5.4",
+    "codelyzer": "~4.5.0",
+    "ng-packagr": "^4.4.0",
+    "protractor": "~5.4.2",
+    "ts-node": "~5.0.1",
+    "tslint": "~5.7.0",
+    "zone.js": "^0.8.26",
+    "typescript": "~2.7.2"
+  },
+  "main": "bundles/sedeh-tagger.umd.js",
+  "module": "fesm5/sedeh-tagger.js",
+  "es2015": "fesm2015/sedeh-tagger.js",
+  "esm5": "esm5/sedeh-tagger.js",
+  "esm2015": "esm2015/sedeh-tagger.js",
+  "fesm5": "fesm5/sedeh-tagger.js",
+  "fesm2015": "fesm2015/sedeh-tagger.js",
+  "typings": "sedeh-tagger.d.ts",
+  "metadata": "sedeh-tagger.metadata.json",
+  "sideEffects": false
+}

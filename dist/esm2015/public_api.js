@@ -1,0 +1,9 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+export { taggerDirective } from './src/app/tagger/tagger.directive';
+export { TaggerService } from './src/app/tagger/tagger.service';
+export { TaggerModule } from './src/app/tagger/tagger.module';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL0BzZWRlaC90YWdnZXIvIiwic291cmNlcyI6WyJwdWJsaWNfYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7QUFDQSxPQUFPLEVBQUUsZUFBZSxFQUFFLE1BQU0sbUNBQW1DLENBQUM7QUFDcEUsT0FBTyxFQUFFLGFBQWEsRUFBRSxNQUFNLGlDQUFpQyxDQUFDO0FBQ2hFLE9BQU8sRUFBRSxZQUFZLEVBQUUsTUFBTSxnQ0FBZ0MsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIlxyXG5leHBvcnQgeyB0YWdnZXJEaXJlY3RpdmUgfSBmcm9tICcuL3NyYy9hcHAvdGFnZ2VyL3RhZ2dlci5kaXJlY3RpdmUnO1xyXG5leHBvcnQgeyBUYWdnZXJTZXJ2aWNlIH0gZnJvbSAnLi9zcmMvYXBwL3RhZ2dlci90YWdnZXIuc2VydmljZSc7XHJcbmV4cG9ydCB7IFRhZ2dlck1vZHVsZSB9IGZyb20gJy4vc3JjL2FwcC90YWdnZXIvdGFnZ2VyLm1vZHVsZSc7Il19

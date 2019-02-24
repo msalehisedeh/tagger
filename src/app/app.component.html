@@ -1,0 +1,40 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+<div class="resources">
+    <a href="https://www.npmjs.com/package/@sedeh/tagbox">npm install @sedeh/tagbox</a>
+    <p>Tested On Safari, Chrome, Mozilla, and IE11 browsers.</p>
+</div>
+  
+<ul class="tagger-list">
+  <li 
+    tagger="image-box" 
+    taggableClass="fa fa-tag" 
+    taggedClass="fa fa-minus-square" 
+    position="bottom:right" 
+    [sticky]="true" 
+    [taggerTag]="myImageUrl"
+    (taggerChanged)="itemTagUpdate($event)"><img [src]="myImageUrl" height="100px" /></li>
+  <li 
+    tagger="favorites-box" 
+    taggableClass="fa fa-heart" 
+    taggedClass="fa fa-heart-o" 
+    position="top:left" 
+    [sticky]="true" 
+    [taggerTag]="myImageUrl"
+    (taggerChanged)="itemTagUpdate($event)"><img [src]="myImageUrl" height="100px" /></li>
+  <li 
+    tagger="video-box" 
+    taggableClass="fa fa-check" 
+    taggedClass="fa fa-asterisk" 
+    position="top:left" 
+    [sticky]="true" 
+    [taggerTag]="myVideoUrl"
+    (taggerChanged)="itemTagUpdate($event)"><video [src]="myVideoUrl" height="100px" controls></video></li>
+</ul>
+<ul class="logger">
+  <li *ngFor="let x of events" [textContent]="x | json"></li>
+</ul>
