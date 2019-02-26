@@ -19,7 +19,13 @@ export class AppComponent {
   }
 
   itemTagUpdate(event: any) {
-    const list = this.taggerService.getTaggedItems(event);
-    this.events.push({eventId: event, items: list});
+    if (event.taggedItem) {
+      const list = this.taggerService.getTaggedItems(event.tagger);
+      event['items'] = list;
+      this.events.push(event);
+    } else {
+      const list = this.taggerService.getTaggedItems(event);
+      this.events.push({eventId: event, items: list});
+    }
   }
 }

@@ -16,13 +16,16 @@
     taggedClass="fa fa-minus-square" 
     position="bottom:right" 
     [sticky]="true" 
-    [taggerTag]="myImageUrl"
+    [dateEnabled]="true"
+    [taggerTag]="{x: myImageUrl}"
     (taggerChanged)="itemTagUpdate($event)"><img [src]="myImageUrl" height="100px" /></li>
   <li 
     tagger="favorites-box" 
     taggableClass="fa fa-heart" 
     taggedClass="fa fa-heart-o" 
     position="top:left" 
+    tagIt="add to favorites"
+    taggedIt="remove from favorites"
     [sticky]="true" 
     [taggerTag]="myImageUrl"
     (taggerChanged)="itemTagUpdate($event)"><img [src]="myImageUrl" height="100px" /></li>
@@ -31,6 +34,8 @@
     taggableClass="fa fa-check" 
     taggedClass="fa fa-asterisk" 
     position="top:left" 
+    tagIt="Must see"
+    taggedIt="Not so much to see"
     [sticky]="true" 
     [taggerTag]="myVideoUrl"
     (taggerChanged)="itemTagUpdate($event)"><video [src]="myVideoUrl" height="100px" controls></video></li>

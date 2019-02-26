@@ -6,13 +6,15 @@ export declare class taggerComponent {
     show: boolean;
     tagged: boolean;
     taggedClass: string;
+    tagIt: string;
+    taggedIt: string;
     change: EventEmitter<{}>;
     constructor(renderer: Renderer2, el: ElementRef);
     keyup(event: any): void;
     position(top: string, left: string, size: string): void;
     showTagger(flag: boolean): void;
 }
-export declare class taggerDirective implements OnInit {
+export declare class TaggerDirective implements OnInit {
     el: ElementRef;
     private viewRef;
     private resolver;
@@ -25,7 +27,10 @@ export declare class taggerDirective implements OnInit {
     taggerSize: number;
     position: string;
     taggerTag: any;
+    dateEnabled: boolean;
     sticky: boolean;
+    tagIt: string;
+    taggedIt: string;
     taggerChanged: EventEmitter<{}>;
     focus(event: any): void;
     enter(event: any): void;
