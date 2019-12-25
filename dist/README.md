@@ -117,6 +117,7 @@ itemTagUpdate(event) {
 
 | Version | Description                                                                                   |
 |---------|-----------------------------------------------------------------------------------------------|
+| 2.0.0   | Updated to Angular 8.                                                                         |
 | 1.0.3   | Removed un-necessary dependency to @angular/http                                              |
 | 1.0.2   | Fixed an ADA issue.                                                                           |
 | 1.0.1   | Added dateEnabled attribute to keep track of tag dates.                                       |

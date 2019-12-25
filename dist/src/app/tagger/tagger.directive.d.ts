@@ -8,7 +8,7 @@ export declare class taggerComponent {
     taggedClass: string;
     tagIt: string;
     taggedIt: string;
-    change: EventEmitter<{}>;
+    change: EventEmitter<any>;
     constructor(renderer: Renderer2, el: ElementRef);
     keyup(event: any): void;
     position(top: string, left: string, size: string): void;
@@ -31,7 +31,7 @@ export declare class TaggerDirective implements OnInit {
     sticky: boolean;
     tagIt: string;
     taggedIt: string;
-    taggerChanged: EventEmitter<{}>;
+    taggerChanged: EventEmitter<any>;
     focus(event: any): void;
     enter(event: any): void;
     hoverOut(event: any): void;
